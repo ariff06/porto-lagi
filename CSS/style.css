@@ -850,13 +850,13 @@ span {
     }
 }
 
-/* @keyframes aboutSpinner {
+@keyframes aboutSpinner {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
 
-@keyframes showRight {
+/* @keyframes showRight {
     0% {
         width: 100%;
     }
