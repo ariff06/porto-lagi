@@ -502,19 +502,19 @@ span {
 }
 
 .skills-content .progress:nth-child(1) .bar span {
-    width: 75%; /* Sesuaikan dengan nilai persentase yang diinginkan */
+    width: 33%; /* Sesuaikan dengan nilai persentase yang diinginkan */
 }
 
 .skills-content .progress:nth-child(2) .bar span {
-    width: 45%;
+    width: 38%;
 }
 
 .skills-content .progress:nth-child(3) .bar span {
-    width: 25%;
+    width: 62%;
 }
 
 .skills-content .progress:nth-child(4) .bar span {
-    width: 8%;
+    width: 15%;
 }
 
 .main-text {
@@ -532,9 +532,18 @@ span {
     color: var(--main-color);
 }
 
+.project-heading {
+    font-size: 3.5rem; /* Reduce subheading size */
+    margin-bottom: 5rem; /* Add spacing below subheading */
+    text-align: center;
+}
+
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust card layout */
+    gap: 2rem; /* Add spacing between cards */
+    justify-content: center;
+    align-items: center;
 }
 
 .row {
